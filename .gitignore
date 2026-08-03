@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+scryfall_bulk_cache.jsonl.gz
+*.part
