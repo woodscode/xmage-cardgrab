@@ -47,6 +47,10 @@ python3 xmage_scryfall_images.py \
   --quality normal --threads 16 --rate 0
 ```
 
+For Windows/Powershell
+```bash
+python3 xmage_scryfall_images.py --out "C:\Users\youruser\downloadlocation\mage-full_1.4.60-dev_2026-07-11_16-06\xmage\mage-client\plugins\images" --quality normal --threads 16 --rate 0
+```
 Re-run the identical command afterwards to mop up any failures. It is
 resumable and only fetches what is missing or broken.
 
